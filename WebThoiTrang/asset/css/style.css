@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: #ccc;
+}
+
+#main{
+    width: 1040px;
+    margin: auto;
+    background-color: #fff;
+    height:100%;
+}
+
+#top{
+    height: 28px;
+    width: 1000px;
+    margin: auto;
+    background-color: #F4F4F4;
+}
+#top-left{
+    float: left;
+    margin-left: 20px;
+}
+
+#top-right{
+    float: right;
+    margin: 5px 20px 0 0;
+}
+
+#top-right ul{
+    list-style-type: none;
+}
+
+#top-right ul li{
+    float: left;
+    margin-right: 5px;
+    color: #999;
+}
+
+#top-right ul li a{
+    color: #999;
+}
+
+#top-right > ul > li:hover{
+    color: yellowgreen;
+}
+
+#header{
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+}
+
+#header .logo-picture{
+    float: left;
+    width: 500px;
+    height: 100px;
+}
+
+#header .bag{
+    float: right;
+    width: 180px;
+    height: 67px;
+    position: relative;
+    background-color: #ccc;
+}
+
+#header .bag img{
+    display: block;
+    height: 67px;
+    border: 0.5px solid;
+}
+
+#header .bag .infor-bag{
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    right: 15px;
+    text-align: center;
+    color: #f00;
+}
+
+#header .contact{
+    float: right;
+    width: 400px;
+    height: 60px;
+}
+
+#header-phone{
+    width: 134px;
+    height: 30px;
+    float: left;
+    margin-top: 28px;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 2px;
+}
+
+#header-search{
+    width: 225px; 
+    height:30px; 
+    float:left; 
+    margin-top:28px; 
+    background:#f7f7f7; 
+    position:relative;
+}
+
+#txtsearch{
+    height:29px;
+    border:0;
+    background:#f7f7f7;
+}
+
+#btnsearch{
+    width:55px;
+    height:30px;
+    position:absolute;
+    z-index:99;
+    top:0; 
+    right:0;
+    border: 0;
+    cursor: pointer;
+}
+
+#menu{
+    width:1000px; 
+    margin:15px auto;
+    height:42px;
+    background: blueviolet;
+}
+
+#menu ul li{
+    float:left;
+    border-right:1px dotted #FFF;
+    height:42px; 
+}
+
+#menu ul{ 
+    list-style-type:none;
+}
+
+#menu ul li a{
+    padding:0 25px 0 25px;
+    color:#FFF;
+    background:#000;
+    font-weight:bold;
+    line-height:42px;
+}
+
+#menu ul li a{
+    padding:0 25px 0 25px;
+    color:#FFF;
+    background:blueviolet;
+    font-weight:bold;
+    line-height:42px; 
+    display:inline-block;
+}
+
+#menu img{
+    float: left;
+    height: 42px;
+    width: 96px;
+}
+
+#web{
+    width:1000px; 
+    margin:10px auto;
+    height:800px;
+}
+
+#web-left{
+    width:230px;
+    height:340px;
+    float:left;
+    border: 1px solid rebeccapurple;
+}
+
+#web-right{
+    width:749px;
+    float:left;
+    border-left: 1px dotted #333;
+    margin-left: 20px;
+}
+
+#web-left > ul{
+    padding:10px 20px 10px 20px;
+    list-style-type: none;
+}
+
+#web-left li{
+    line-height:25px;
+}
+
+#web-left > ul > li{ 
+    border-bottom:1px solid #999;
+}
+.sub-menu li{
+    padding-left: 30px;
+    list-style-type: none;
+}
+#web-left a:hover{
+    color: red;
+}
+
+#products{
+    margin-left: 17px;
+}
+
+#products ul li{
+    width: 230px;
+    height: 340px;
+    float: left;
+    margin-right: 7px;
+}
+
+#products ul li:hover{
+    background: #ccc;
+}
+
+.content{
+    width:210px; 
+    height:320px;
+    margin: 9px 10px;
+}
+
+.title{
+    font-weight: 500;
+}
